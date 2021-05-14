@@ -21,6 +21,10 @@ background-color: #F1F1F1;
 font-family: DINPro;
 src: url(../fonts/DINPro.otf);
 }
+@font-face {
+    font-family: metropolis;
+    src: url(/fonts/metropolis.regular.otf);
+}
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------Dimensão do conteúdo do header------------------------------------------------------*/
@@ -70,3 +74,55 @@ height: 150px;
 margin-left: 10%;
 margin-top: -13%;
 }
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------Box direito do header-------------------------------------------------------------*/
+
+.box_direito {
+margin-top: 3.3%;
+margin-left: 30%;
+}
+.id_disseminador {
+font: normal normal bold 16px/60px DINPro;
+top: 75px;
+left: 1254px;
+width: 163px;
+height: 19px;
+letter-spacing: 0px;
+color: #4A4A4A;
+}
+.bloco1 {
+margin-top: -2%;
+margin-right: 60px;
+}
+.iconify {
+top: 77px;
+left: 1427px;
+width: 18px;
+height: 15px;
+content: url('https://api.iconify.design/feather:bell.svg?height=24');
+vertical-align: -0.125em;
+color: black;
+}
+.bloco2 {
+margin-top: -15%;
+margin-left: 80%;
+}
+.lembretes {
+font: normal normal bold 16px/60px metropolis;
+letter-spacing: 0px;
+margin-top: -60%;
+margin-left: 30%;
+color: #FFFFFF;
+opacity: 1;
+}
+.borda_lembretes {
+background-color: #E21683;  
+border-radius: 50%;     
+width: 25px;     
+height: 25px;  
+margin-top: -50%;
+margin-left: 45%;   
+display: flex;
+}
+

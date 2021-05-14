@@ -1,0 +1,144 @@
+/*------------------------------Configuração global da página------------------------------------------------------*/
+*{
+margin: 0;
+padding: 0;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------Definição do tamanho do layout----------------------------------------------------*/
+
+html {
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+background: #F1F1F1 0% 0% no-repeat padding-box;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------Estilo de fonte aplicada----------------------------------------------------------*/
+
+@font-face {
+font-family: DINPro;
+src: url(../fonts/DINPro.otf);
+}
+@font-face {
+font-family: metropolis;
+src: url(../fonts/metropolis.regular.otf);
+}
+h3 {
+font-family: DINPro;
+font-weight: normal normal bold 20px/25px;
+padding: 43px 0px 0px 0px;
+text-align: center;
+color: #82008F;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------Bloco do logo disseminadores-----------------------------------------------*/
+.container {
+margin-top: 303px;
+margin-left: 474px;
+width: 967px;
+height: 424px;
+}
+.container_disseminadores {
+top: 303px;
+left: 474px;
+width: 542px;
+height: 424px;
+display: flex;
+background-color: #82008F;
+}
+.logo_disseminadores {
+top: 392px;
+left: 549px;
+width: 392px;
+height: 247px;
+padding: 89px 75px 88px 75px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------Box do login----------------------------------------------------*/
+
+.box_login {
+top: 303px;
+left: 1016px;
+width: 425px;
+height: 421px;
+margin-top: -424px;
+margin-inline-start: auto;
+border: #82008F 1px solid;
+background-color: #FFFFFF;
+}
+.logo_raizen {
+height: 66px;
+margin: auto;
+margin-bottom: 29.32px;
+display: flex;
+}
+.campo_email input {
+width: 307px;
+height: 42px;
+margin: auto;
+display: flex;
+border: 1px solid #82008F;
+}
+.campo_email {
+margin-bottom: 30px;
+}
+.campo_senha input {
+width: 307px;
+height: 42px;
+display: flex;
+margin: auto;
+border: 1px solid #82008F;
+}
+input:focus {
+outline: none;
+}
+.botao_login {
+width: 99px;
+height: 42px;
+margin: 30px 0px 0px 58px;
+border: 1px solid #82008F;
+background-color: #82008F;
+color: #fff;
+cursor: pointer;
+}
+.botao_login:hover {
+background: #FFFFFF;
+color: #000000;
+opacity:1;
+}
+.campo_email input {
+text-align: left;
+font-family: DINPro;
+letter-spacing: 0px;
+color: #6B6B6B;
+opacity: 1;
+}
+.lembrete_senha {
+margin: -35px 240px;
+width: 35%;
+color: #4A4A4A;
+font: normal normal normal 14px/60px DINPro;
+letter-spacing: 0px;
+cursor: pointer;
+}
+.lembrete_senha:hover {
+color: #FF0055;
+font: normal normal normal 14px/60px Metropolis;
+letter-spacing: 0px;
+}
+.copyright {
+margin: 292px 818px 31px 819px;
+width: 100%;
+font: normal normal 300 12px/15px DIN Pro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 0.8;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/

@@ -503,4 +503,214 @@ margin-left: 140%;
 background: #E8E8E8 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
+/*----------------------------------------------------Campo de pesquisa-----------------------------------------------------*/
+
+.Box_pesquisa {
+display: flex;
+margin-top: 22%;
+margin-left: -55.7%;
+}
+.texto_pesquisa {
+display: flex;
+top: 542px;
+left: 378px;
+width: 293px;
+height: 28px;
+text-align: left;
+font: normal normal normal 22px/28px DINPro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 0.82;
+}
+.lupa {
+display: flex;
+top: 544px;
+left: 681px;
+width: 24px;
+height: 24px;
+margin-top: 0.3%;
+margin-left: 2%;
+}
+.pesquisar {
+display: flex;
+top: 535px;
+left: 724px;
+width: 870px;
+height: 42px;
+padding-left: 2%;
+margin-left: 3%;
+margin-top: -0.5%;
+border: 0px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+text-align: left;
+font: normal normal 300 14px/60px DINPro;
+letter-spacing: 0px;
+color: #6B6B6B;
+opacity: 1;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------Campo dos quadros disseminadores------------------------------------------*/
+
+.quadro_disseminador {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 26%;
+margin-left: -62%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.foto1 {
+display: flex;
+top: 664px;
+left: 452px;
+width: 113px;
+height: 113px;
+margin-top: 15%;
+margin-left: 29%;
+border-radius: 50%;
+background: transparent url('/img/homem.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.titulo_quadro {
+display: flex;
+top: 794px;
+left: 424px;
+width: 170px;
+height: 53px;
+margin-top: 65%;
+margin-left: -53%;
+text-align: center;
+font: normal normal 900 22px/26px DINPro blk;
+letter-spacing: 0px;
+color: #82008F;
+text-transform: uppercase;
+opacity: 1;
+}
+.quadro_hashtag {
+display: flex;
+font-size: 14px;
+width: 55%;
+margin-top: 90%;
+margin-left: -60%;
+margin-right: 10%;
+text-align: center;
+font: normal normal normal 14px/21px DINPro;
+color: #4A4A4A;
+opacity: 1;
+}
+.estrela {
+display: flex;
+top: 926px;
+left: 505px;
+width: 19px;
+height: 17px;
+margin-top: 115%;
+margin-left: -42%;
+}
+.nota {
+display: flex;
+top: 946px;
+left: 498px;
+width: 32px;
+height: 20px;
+margin-top: 121%;
+margin-left: -7%;
+text-align: center;
+font: normal normal normal 14px/21px DINPro;
+letter-spacing: 0px;
+color: #5A1B5A;
+opacity: 1;
+}
+.quadro_disseminador2 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 26%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador3 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 26%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador4 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 26%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador5 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 48%;
+margin-left: -62%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador6 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 48%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador7 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 48%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}
+.quadro_disseminador8 {
+display: flex;
+top: 629px;
+left: 379px;
+width: 260px;
+height: 369px;
+margin-top: 48%;
+margin-left: 2.5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #82008F;
+opacity: 1;
+}

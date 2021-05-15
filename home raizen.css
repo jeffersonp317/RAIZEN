@@ -25,6 +25,14 @@ src: url(../fonts/DINPro.otf);
     font-family: metropolis;
     src: url(/fonts/metropolis.regular.otf);
 }
+@font-face {
+    font-family: DINPro Light;
+    src: url(/fonts/dinpro-light.otf);
+}
+@font-face {
+    font-family: DINPro blk;
+    src: url(/fonts/dinpro-black.otf);
+}
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------Dimensão do conteúdo do header------------------------------------------------------*/
@@ -95,7 +103,7 @@ color: #4A4A4A;
 margin-top: -2%;
 margin-right: 60px;
 }
-.iconify {
+.iconify svg {
 top: 77px;
 left: 1427px;
 width: 18px;
@@ -124,5 +132,375 @@ height: 25px;
 margin-top: -50%;
 margin-left: 45%;   
 display: flex;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------Bloco superior do corpo da página------------------------------------------------*/
+
+.bloco3 {
+display: flex;
+}
+.titulo_px_encontro {
+top: 172px;
+left: 378px;
+width: 295px;
+height: 72px;
+margin-top: 47px;
+margin-left: 378px;
+font: normal normal normal 18px/23px DINPro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 0.82;
+}
+.bloco_encontro {
+display: flex;
+background: #82008F 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+top: 213px;
+left: 379px;
+width: 771px;
+height: 266px;
+margin-top: 5%;
+margin-left: -15.3%;
+}
+.mes_encontro {
+display: flex;
+top: 252px;
+left: 417px;
+width: 113px;
+height: 39px;
+margin-top: 5%;
+margin-left: 7%;
+text-align: center;
+font: normal normal normal 35px/43px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 0.84;
+}
+.dia_encontro {
+display: flex;
+top: 275px;
+left: 421px;
+width: 109px;
+height: 123px;
+margin-top: 11%;
+margin-left: -17%;
+text-align: left;
+font: normal normal bold 100px/86px DINPro;
+letter-spacing: 0px;
+color: #FC8304;
+opacity: 1;
+}
+.horario_encontro {
+display: flex;
+top: 386px;
+left: 419px;
+width: 113px;
+height: 35px;
+margin-top: 24%;
+margin-left: -11.1%;
+text-align: center;
+font: normal normal 300 25px/21px DINPro Light;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.img_encontro {
+display: flex;
+top: 253px;
+left: 573px;
+width: 61px;
+height: 61px;
+margin-top: 5.5%;
+margin-left: 1%;
+border-radius: 50%;
+}
+.sinal_mais {
+display: flex;
+top: 309px;
+left: 626px;
+width: 10px;
+height: 0px;
+margin-top: 12%;
+margin-left: -1.7%;
+color: #FC8304;
+opacity: 1;
+}
+.subtitulo1 {
+display: flex;
+top: 0px;
+left: 0px;
+width: 20%;
+height: 46px;
+margin-top: 15%;
+margin-left: -7%;
+font: 100 32px/40px DINPro Light;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.subtitulo2 {
+display: flex;
+top: 38px;
+left: 0px;
+width: 273px;
+height: 46px;
+margin-top: 20%;
+margin-left: -19.6%;
+font: normal normal 900 38px/40px DINPro blk;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.hashtag_encontro {
+display: flex;
+top: 411px;
+left: 573px;
+width: 264px;
+height: 22px;
+margin-top: 25%;
+margin-left: -35.5%;
+font: normal normal normal 14px/26px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.87;
+}
+.botao_reunião {
+display: flex;
+top: 386px;
+left: 912px;
+width: 188px;
+height: 42px;
+margin-top: 90%;
+margin-left: 40%;
+align-items: center;
+padding: 12% 19.4%;
+background: #1FC2DF 0% 0% no-repeat padding-box;
+opacity: 1;
+border: 0px;
+font: normal normal bold 14px/60px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+cursor: pointer;
+}
+.seta_down {
+display: block;
+margin: 30px auto;
+width: 15px;
+height: 15px;
+border-top: 2px solid #E21683;
+border-left: 2px solid #E21683;
+}
+.seta_down{
+transform: rotate(135deg);
+}
+.seta_down::after {
+content: "";
+display: block;
+width: 2px;
+height: 20px;
+margin-top: 35%;
+margin-left: -45%;
+background-color: #E21683;
+transform: rotate(-45deg) translate(15px, 4px);
+left: 0;
+top: 0;
+}
+.box_seta {
+display: flex;
+margin-top: -23%;
+margin-right: -150%;
+}
+.divisor2 {
+display: flex;
+top: 260px;
+left: 1537px;
+width: 3px;
+height: 78px;
+margin-top: -29%;
+margin-left: 140%;
+background: #82008F 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+}
+.titulo_antigos {
+display: flex;
+top: 212px;
+left: 1188px;
+width: 295px;
+height: 72px;
+margin-top: 32%;
+margin-left: 15%;
+font: normal normal normal 18px/23px DINPro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 0.82;
+}
+.mes_antigos {
+display: flex;
+top: 261px;
+left: 1200px;
+width: 25px;
+height: 18px;
+margin-left: 20%;
+text-align: left;
+font: normal normal normal 14px/17px DINPro;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.dia_antigos {
+display: flex;
+top: 274px;
+left: 1184px;
+width: 52px;
+height: 60px;
+margin-top: 2%;
+margin-left: 14%;
+text-align: left;
+font: normal normal normal 50px/40px DINPro;
+letter-spacing: 0px;
+color: #E21683;
+opacity: 1;
+}
+.horario_antigos {
+display: flex;
+top: 328px;
+left: 1193px;
+width: 43px;
+height: 16px;
+margin-top: -7%;
+margin-left: 18%;
+text-align: left;
+font: normal normal normal 14px/21px DINPro;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.divisor_tutor {
+display: flex;
+width: 0px;
+height: 22px;
+margin-top: -10%;
+margin-left: 40%;
+border: 1px solid #6B6B6B;
+background: #6B6B6B 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.titulo_tutor {
+display: flex;
+top: 266px;
+left: 1278px;
+width: 194px;
+height: 19px;
+margin-top: -24%;
+margin-left: 45%;
+text-align: left;
+font: normal normal 300 14px/17px DINPro;
+letter-spacing: 0px;
+color: #404040;
+opacity: 1;
+}
+.titulo_disseminador {
+display: flex;
+top: 291px;
+left: 1278px;
+width: 194px;
+height: 53px;
+margin-top: 1%;
+margin-left: 45%;
+text-align: left;
+font: normal normal bold 18px/26px DINPro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 1;
+}
+.mes_antigos2 {
+display: flex;
+top: 375px;
+left: 1204px;
+width: 25px;
+height: 18px;
+margin-top: 10%;
+margin-left: 20%;
+text-align: left;
+font: normal normal normal 14px/17px DINPro;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.dia_antigos2 {
+display: flex;
+top: 388px;
+left: 1188px;
+width: 52px;
+height: 60px;
+margin-top: 2%;
+margin-left: 15%;
+text-align: left;
+font: normal normal normal 50px/40px DINPro;
+letter-spacing: 0px;
+color: #FC8304;
+opacity: 1;
+}
+.horario_antigos2 {
+display: flex;
+top: 442px;
+left: 1197px;
+width: 43px;
+height: 16px;
+margin-top: -7%;
+margin-left: 18%;
+text-align: left;
+font: normal normal normal 14px/21px DINPro;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.titulo_tutor2 {
+display: flex;
+top: 380px;
+left: 1279px;
+width: 149px;
+height: 19px;
+margin-top: -24%;
+margin-left: 45%;
+text-align: left;
+font: normal normal normal 14px/17px DINPro;
+letter-spacing: 0px;
+color: #404040;
+opacity: 1;
+}
+.titulo_disseminador2 {
+display: flex;
+top: 407px;
+left: 1278px;
+width: 191px;
+height: 53px;
+margin-top: 1%;
+margin-left: 45%;
+text-align: left;
+font: normal normal bold 18px/26px DINPro;
+letter-spacing: 0px;
+color: #4A4A4A;
+text-transform: uppercase;
+opacity: 1;
+}
+.divisor3 {
+display: flex;
+top: 262px;
+left: 1537px;
+width: 3px;
+height: 120px;
+margin-top: -40%;
+margin-left: 140%;
+background: #E8E8E8 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 

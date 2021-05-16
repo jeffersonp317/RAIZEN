@@ -5,7 +5,7 @@
 const $enviar = document.querySelector("botao_login")
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------Função de validação da tela de login-------------------------------------*/
+/*---------------------------------------Função de validação da tela de login------------------------------------*/
 function validar() {
     
     let email = document.getElementById('email')

@@ -6,7 +6,7 @@ padding: 0;
 /*-----------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------Dimensão do layout principal------------------------------------------------------*/
-html {
+body {
 top: 0px;
 left: 0px;
 width: 1920px;
@@ -36,9 +36,14 @@ src: url(../fonts/DINPro.otf);
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------Dimensão do conteúdo do header------------------------------------------------------*/
+#header {
+    
+}
 .header_raizen {
 width: 100%;
 height: 125px;
+width: 100%;
+padding-right: 1.5%;
 display: flex;
 background-color: #FFFFFF;
 }
@@ -600,7 +605,7 @@ display: flex;
 font-size: 14px;
 width: 55%;
 margin-top: 90%;
-margin-left: -60%;
+margin-left: -55%;
 margin-right: 10%;
 text-align: center;
 font: normal normal normal 14px/21px DINPro;
@@ -614,7 +619,7 @@ left: 505px;
 width: 19px;
 height: 17px;
 margin-top: 115%;
-margin-left: -42%;
+margin-left: -36%;
 }
 .nota {
 display: flex;
@@ -673,7 +678,7 @@ left: 379px;
 width: 260px;
 height: 369px;
 margin-top: 48%;
-margin-left: -62%;
+margin-left: -62.3%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #82008F;
 opacity: 1;
@@ -685,7 +690,7 @@ left: 379px;
 width: 260px;
 height: 369px;
 margin-top: 48%;
-margin-left: 2.5%;
+margin-left: 2.6%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #82008F;
 opacity: 1;
@@ -697,7 +702,7 @@ left: 379px;
 width: 260px;
 height: 369px;
 margin-top: 48%;
-margin-left: 2.5%;
+margin-left: 2.6%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #82008F;
 opacity: 1;
@@ -709,8 +714,148 @@ left: 379px;
 width: 260px;
 height: 369px;
 margin-top: 48%;
-margin-left: 2.5%;
+margin-left: 2.6%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #82008F;
 opacity: 1;
 }
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------Rodapé da página---------------------------------------------------*/
+
+.botao_footer {
+display: flex;
+top: 1482px;
+left: 822px;
+width: 284px;
+margin-top: 480%;
+margin-left: -260%;
+padding-left: 30%;
+font: normal normal bold 14px/60px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+border: 0px;
+background: #863176 0% 0% no-repeat padding-box;
+opacity: 1;
+cursor: pointer;
+}
+.rodape {
+display: flex;
+width: 105%;
+height: 227px;
+margin-top: 80%;
+margin-left: -100%;
+background: #5A1B5A 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+.copyright {
+display: flex;
+top: 1818px;
+left: 1250px;
+width: 283px;
+height: 30px;
+margin-top: 88%;
+margin-left: -35%;
+font: normal normal 300 12px/15px DINPro Light;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 0.8;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------Hover dos quadros disseminadores------------------------------------------*/
+.quadro_oculto{
+display: flex;
+content-visibility: hidden;
+top: 691px;
+left: 979px;
+width: 260px;
+height: 87.5%;
+margin-top: 24%;
+margin-left: -49%;
+}
+.titulo_oculto {
+display: flex;
+top: 716px;
+left: 1013px;
+width: 192px;
+height: 61px;
+margin-top: 10%;
+margin-left: 16%;
+text-align: center;
+font: normal normal 900 24px/26px DINPro blk;
+letter-spacing: 0px;
+color: #FC8304;
+text-transform: uppercase;
+opacity: 1;
+}
+.hashtag_oculto {
+
+display: flex;
+top: 782px;
+left: 1023px;
+height: 53px;
+width: inherit;
+margin-top: 35%;
+margin-left: -65%;
+text-align: center;
+font: normal normal normal 14px/21px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.7;
+}
+.texto_oculto {
+
+display: flex;
+top: 835px;
+left: 1020px;
+width: 110%;
+height: 72px;
+margin-top: 58%;
+margin-left: -70%;
+margin-right: 10%;
+text-align: center;
+font: normal normal normal 14px/21px DINPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.7;
+}
+.botao_agendar {
+
+display: flex;
+width: 100%;
+height: 45px;
+padding-top: -10px;
+margin-top: 90%;
+margin-left: -80%;
+margin-right: 17%;
+background: #1FC2DF 0% 0% no-repeat padding-box;
+border: 0px;
+font: normal normal bold 14px/60px DINPro;
+letter-spacing: 0px;
+align-items: center;
+justify-content: center;
+align-self: 100%;
+color: #FFFFFF;
+opacity: 1;
+}
+.quadro_oculto:hover { 
+display: flex;
+content-visibility: visible;
+background: #863176 ;
+transition: 0.5s;
+transform: translateY(-5%);
+
+
+
+
+
+
+}
+
+
+
+

@@ -13,7 +13,8 @@ function validar() {
     let erro_email = document.getElementById('Erroemail')
     let erro_senha = document.getElementById('Errosenha')
     
-    const home_raizen = onclick="window.location.href=home raizen.html"
+    
+    const home_raizen = onclick="window.location.href=raizen.html"
 
     if (email.value || senha.value == "") {
         document.getElementById('email').style.border = '1px solid #FF0055'
@@ -22,9 +23,15 @@ function validar() {
         erro_senha.style.display = 'block'
         
         return false
-    } else {
+    } 
+    
+    else {
+       
         $enviar = home_raizen
+        return true
     }
-    return true
+    
 }
+
+
 
